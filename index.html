@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kimetsu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>鬼滅の刃API</h3>
+    <form id="category">
+      <p>カテゴリーを選んでください</p>
+      <input type="radio" id="all" name="character" value="all" />
+      <label for="all">全キャラクター</label><br />
+
+      <input type="radio" id="kisatsutai" name="character" value="kisatsutai" />
+      <label for="kisatsutai">鬼殺隊</label><br />
+
+      <input type="radio" id="hashira" name="character" value="hashira" />
+      <label for="hashira">柱</label><br />
+
+      <input type="radio" id="oni" name="character" value="oni" />
+      <label for="oni">鬼</label><br />
+    </form>
+    <div id="content"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
